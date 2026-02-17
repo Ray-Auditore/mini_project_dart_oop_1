@@ -3,7 +3,7 @@ abstract class Employee {
 
   Employee(this._name);
 
-  String get name => _name;
+  String get name => _name; 
 
   set name(String value) {
     if (value.isNotEmpty) {
